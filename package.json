@@ -1,0 +1,24 @@
+{
+  "name": "bot-echo",
+  "version": "1.0.0",
+  "description": "tech-bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkr7001/bot-echo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nkr7001/bot-echo/issues"
+  },
+  "homepage": "https://github.com/nkr7001/bot-echo#readme",
+  "keywords": [],
+  "dependencies": {
+    "botbuilder": "^4.23.2",
+    "restify": "^11.1.0"
+  }
+}
