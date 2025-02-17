@@ -21,6 +21,6 @@
     "@azure/core-http": "^3.0.5",
     "botbuilder": "^4.23.2",
     "formidable": "^3.5.2",
-    "restify": "^9.1.0"
+    "restify": "^8.0.0"
   }
 }
