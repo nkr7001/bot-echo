@@ -18,7 +18,9 @@
   "homepage": "https://github.com/nkr7001/bot-echo#readme",
   "keywords": [],
   "dependencies": {
+    "@azure/core-http": "^3.0.5",
     "botbuilder": "^4.23.2",
-    "restify": "^11.1.0"
+    "formidable": "^3.5.2",
+    "restify": "^9.1.0"
   }
 }
