@@ -1,26 +1,21 @@
 {
   "name": "bot-echo",
   "version": "1.0.0",
-  "description": "tech-bot",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "build": "tsc",
+    "test": "echo \"No tests specified\""
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nkr7001/bot-echo.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nkr7001/bot-echo/issues"
-  },
-  "homepage": "https://github.com/nkr7001/bot-echo#readme",
-  "keywords": [],
   "dependencies": {
-    "@azure/core-http": "^3.0.5",
-    "botbuilder": "^4.23.2",
-    "formidable": "^3.5.2",
-    "restify": "^8.0.0"
+    "botbuilder": "^4.14.1",
+    "csv": "^6.3.11",
+    "csv-parse": "^5.6.0",
+    "restify": "^8.1.0"
+  },
+  "devDependencies": {
+    "@types/restify": "^8.5.12",
+    "typescript": "^5.7.3"
   }
 }
